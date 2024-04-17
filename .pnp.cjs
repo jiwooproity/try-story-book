@@ -26,6 +26,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@storybook/addon-actions", "npm:8.0.8"],\
           ["@storybook/addon-essentials", "virtual:b3103b3b1b7dbc362d03ccf9f9dc0f3f5e3554986f0409800efc69cba07cd58381d51eeb4eaca1036e3a34ef7eda72d6cfa3673090876d773241b7a11572652c#npm:7.6.6"],\
           ["@storybook/addon-interactions", "npm:7.6.6"],\
           ["@storybook/addon-links", "virtual:b3103b3b1b7dbc362d03ccf9f9dc0f3f5e3554986f0409800efc69cba07cd58381d51eeb4eaca1036e3a34ef7eda72d6cfa3673090876d773241b7a11572652c#npm:7.6.6"],\
@@ -4610,6 +4611,19 @@ const RAW_RUNTIME_STATE =
           ["uuid", "npm:9.0.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:8.0.8", {\
+        "packageLocation": "../../../../.yarn/berry/cache/@storybook-addon-actions-npm-8.0.8-0ab5b36ce1-10c0.zip/node_modules/@storybook/addon-actions/",\
+        "packageDependencies": [\
+          ["@storybook/addon-actions", "npm:8.0.8"],\
+          ["@storybook/core-events", "npm:8.0.8"],\
+          ["@storybook/global", "npm:5.0.0"],\
+          ["@types/uuid", "npm:9.0.7"],\
+          ["dequal", "npm:2.0.3"],\
+          ["polished", "npm:4.2.2"],\
+          ["uuid", "npm:9.0.1"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@storybook/addon-backgrounds", [\
@@ -5184,6 +5198,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../.yarn/berry/cache/@storybook-core-events-npm-7.6.6-0fea8b7be7-10c0.zip/node_modules/@storybook/core-events/",\
         "packageDependencies": [\
           ["@storybook/core-events", "npm:7.6.6"],\
+          ["ts-dedent", "npm:2.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:8.0.8", {\
+        "packageLocation": "../../../../.yarn/berry/cache/@storybook-core-events-npm-8.0.8-e9ba2385a2-10c0.zip/node_modules/@storybook/core-events/",\
+        "packageDependencies": [\
+          ["@storybook/core-events", "npm:8.0.8"],\
           ["ts-dedent", "npm:2.2.0"]\
         ],\
         "linkType": "HARD"\
@@ -9054,6 +9076,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["intro-storybook-react-template", "workspace:."],\
+          ["@storybook/addon-actions", "npm:8.0.8"],\
           ["@storybook/addon-essentials", "virtual:b3103b3b1b7dbc362d03ccf9f9dc0f3f5e3554986f0409800efc69cba07cd58381d51eeb4eaca1036e3a34ef7eda72d6cfa3673090876d773241b7a11572652c#npm:7.6.6"],\
           ["@storybook/addon-interactions", "npm:7.6.6"],\
           ["@storybook/addon-links", "virtual:b3103b3b1b7dbc362d03ccf9f9dc0f3f5e3554986f0409800efc69cba07cd58381d51eeb4eaca1036e3a34ef7eda72d6cfa3673090876d773241b7a11572652c#npm:7.6.6"],\

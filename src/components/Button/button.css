@@ -25,3 +25,8 @@
   line-height: 12px;
   padding: 8px;
 }
+
+.storybook-button.active {
+  color: white;
+  background-color: blue;
+}
