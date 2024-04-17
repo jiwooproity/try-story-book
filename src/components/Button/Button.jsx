@@ -30,7 +30,7 @@ Button.propTypes = {
   borderColor: PropTypes.string,
 };
 
-Button.defaultProps = {
+Button.defaultProp = {
   text: "Button",
   size: "small",
   color: "#000000",

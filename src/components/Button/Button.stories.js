@@ -1,6 +1,6 @@
 import { Button } from "./Button";
 
-const meta = {
+export default {
   title: "Example/Button",
   component: Button,
   tags: ["autodocs"],
@@ -8,13 +8,11 @@ const meta = {
     text: { description: "버튼 문구" },
     size: { description: "버튼의 크기" },
     color: { description: "버튼 글씨 색상" },
-    backgroundColor: { description: "버튼 배경 색상 " },
+    backgroundColor: { description: "버튼 배경 색상" },
     borderWidth: { description: "버튼 테두리 너비" },
     borderColor: { description: "버튼 테두리 색상" },
   },
 };
-
-export default meta;
 
 export const Large = {
   args: {
